@@ -1,0 +1,29 @@
+.carContainer {
+    border-radius: 2rem;
+    width: 55%;
+    height: 50vh;
+}
+
+.carContainer div {
+    background-color: #97abbe;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.carContainer div h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.carContainer div img {
+    height: 70%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.carContainer div p {
+    padding: 1.5rem;
+}
