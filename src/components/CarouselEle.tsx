@@ -4,14 +4,16 @@ import arubaito from "../assets/LogoFinal.png"
 
 import GE from "../assets/GE Aerospace Sustainability Capstone Poster (1).png"
 
+import Divvy from "../assets/Divvy_Logo1.png"
+
 export const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 1
+        breakpoint: { max: 6000, min: 2200 },
+        items: 2
     },
     desktop: {
-        breakpoint: { max: 3000, min: 1024 },
+        breakpoint: { max: 2200, min: 1024 },
         items: 1
     },
     tablet: {
@@ -28,36 +30,26 @@ export const carouselItems = [
     {
         name: "AR Flight Experience",
         img: flight,
-        description: "Figma (Design)",
+        description: "Figma (Product Development)",
     },
     {
         name: "Social Gathering App",
         img: univibe,
-        description: "Figma (Design)",
+        description: "Figma (Product Development)",
     },
     {
         name: "Streetwear Brand",
         img: arubaito,
-        description: "PS, Illustrator (Fashion)",
+        description: "PS, Illustrator (Fashion / Entrepreneurship)",
     },
     {
         name: "Sustainability Capstone Project",
         img: GE,
-        description: "Excel, R, Canva",
+        description: "Excel, R, Canva (Data Analytics)",
     },
     {
-        name: "Logo",
-        img: "bruh",
-        description: "moment",
-    },
-    {
-        name: "Logo",
-        img: "bruh",
-        description: "moment",
-    },
-    {
-        name: "Logo",
-        img: "bruh",
-        description: "moment",
+        name: "Divvy Bike Share Case Study",
+        img: Divvy,
+        description: "Excel, R, PhotoShop (Data Analytics)"
     },
 ]
