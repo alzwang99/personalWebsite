@@ -13,6 +13,9 @@ function Home() {
             <div className="w-full tb:w-2/4 tb:float-right z-2">
                 <Section data={resumeData} contentType="Resume" />
                 <Section data={projectData} contentType="Projects" />
+                <div className="max-w-[33rem] tb:max-w-[40rem] p-10 m-auto tb:text-start text-center">
+                    <p>Designed with React and Tailwind.css</p>
+                </div>
             </div>
         </div>
     )
