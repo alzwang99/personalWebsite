@@ -1,6 +1,8 @@
 
 import About from "../components/About"
-import Resume from "../components/Resume"
+import Section from "../components/Section"
+import resumeData from "../data/resumeData"
+import projectData from "../data/projectData"
 
 function Home() {
     return (
@@ -9,7 +11,8 @@ function Home() {
                 <About />
             </div>
             <div className="w-full tb:w-2/4 tb:float-right z-2">
-                <Resume />
+                <Section data={resumeData} contentType="Resume" />
+                <Section data={projectData} contentType="Projects" />
             </div>
         </div>
     )

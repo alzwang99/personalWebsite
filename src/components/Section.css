@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.section-comp {
+    border-radius: 2rem;
+}
+
+.section-comp:hover {
+    backdrop-filter: brightness(95%);
+    border-color: bisque;
+    transition-duration: 350ms;
+}
+
+.section-comp:hover h2 {
+    color: #2a9df4
+}
+
+.not-hovered {
+    opacity: 0.5;
+    transition-duration: 350ms;
+}
+
+.section-project h2{
+    font-size: 1.75rem;
+}
+
+.section-comp img {
+    border-radius: 2rem;
+}
+
+.section-comp p {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    opacity: 0.75;
+}
