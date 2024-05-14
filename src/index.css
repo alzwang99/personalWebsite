@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #FFFAF1;
+  background-color: #000000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -90,8 +90,7 @@ h1 span {
 } */
 
 svg {
-  width: 15vw;
-  height: 15vw;
+  width: 30vw;
   margin: auto;
 }
 

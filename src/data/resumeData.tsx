@@ -12,7 +12,7 @@ const work: Work[] = [
         year: "Aug 2023 — Jan 2024",
         name: "Business Process Specialist ",
         company: "• Cintas",
-        description: "Although Scott said it didn't matter to him, he knew deep inside that it did. They had been friends as long as he could remember and not once had he had to protest that something Joe apologized for doing didn't really matter. Scott stuck to his lie and insisted again and again that everything was fine as Joe continued to apologize. Scott already knew that despite his words accepting the apologies that their friendship would never be the same.",
+        description: "Implemented SAP technologies to enhance data extraction and validation processes. \nConducted Customer Data Churn Analysis to implement strategies towards customer retention.",
     },
     {
         index: 1,

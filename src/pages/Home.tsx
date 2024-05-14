@@ -13,7 +13,7 @@ function Home() {
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
-        setTimeout(() => setLoaded(true), 6000)
+        setTimeout(() => setLoaded(true), 5800)
     }, []);
 
 
@@ -22,7 +22,7 @@ function Home() {
             {loaded === false ?
                 <div className="svg-animation splash-fade">
                     <Example />
-                    <p className="splash-text">alzwang.com</p>
+                    <p className="splash-text tb:text-xl">alzwang.com</p>
                 </div> :
                 <div className="pt-12 content-fade">
                     <div className="w-5/8 tb:w-3/8 tb:float-left tb:fixed z-1">
