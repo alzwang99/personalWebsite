@@ -8,8 +8,7 @@
 }
 
 .section-comp:hover {
-    backdrop-filter: brightness(95%);
-    border-color: bisque;
+    background-color: #e4e4e4;
     transition-duration: 350ms;
 }
 
@@ -34,4 +33,23 @@
     font-size: 0.85rem;
     line-height: 1.5rem;
     opacity: 0.75;
+}
+
+.section-buttons {
+    padding-top: 1rem;
+}
+
+.section-buttons button {
+    color: white;
+    background-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0.5rem;
+    font-size: 12px;
+    transition-duration: 350ms;
+    transition-property: color;
+}
+
+.section-buttons button:hover {
+    color: #6abeff;
 }

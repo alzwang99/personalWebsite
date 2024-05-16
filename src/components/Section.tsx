@@ -1,4 +1,4 @@
-import InfoComp from "./SectionComp"
+import SectionComp from "./SectionComp"
 import { useState } from "react";
 import "./Section.css"
 import { Project } from "../data/projectData"
@@ -14,11 +14,10 @@ function Section({ data, contentType }: DataProps) {
     return (
         <div>
             <h1 className="text-5xl max-w-[33rem] tb:max-w-[40rem] p-10 tb:pr-20 m-auto">{contentType}</h1>
-            {data.map((data, index) => (
-                <div onMouseEnter={() => setHovered(index)}
-                    onMouseLeave={() => setHovered(null)}
-                    className={hovered !== null && hovered !== index ? "not-hovered" : ""}>
-                    <InfoComp key={index} info={data} contentType={contentType} />
+            {data.map((data) => (
+                <div>
+                    <SectionComp info={data} contentType={contentType} setHovered={setHovered} hovered={hovered}
+                    />
                 </div>
             ))}
         </div>

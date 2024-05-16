@@ -4,14 +4,13 @@ import styles from "../components/Test.module.css"
 
 function Test() {
     return (
-        <div className=" h-[900vh]">
-            <div>
-                <Hero />
-            </div>
-            <div className={styles.absoluteContainer}>
+        <main className={styles.main}>
+            <h1 className={styles.startText}>Let's Play Some Cards</h1>
+            <Hero />
+            <div className={styles.contentContainer}>
                 <Content />
             </div>
-        </div>
+        </main>
 
     )
 }

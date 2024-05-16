@@ -3,6 +3,9 @@ import univibe from "../assets/Univibe.png"
 import arubaito from "../assets/LogoFinal.png"
 import ge from "../assets/GE Aerospace Sustainability Capstone Poster (1).png"
 import divvy from "../assets/Divvy_Logo1.png"
+import linkData, { Links } from './linkData';
+
+const { projects, skills }: Links = linkData;
 
 export interface Project {
     index: number;
@@ -10,6 +13,9 @@ export interface Project {
     name: string;
     description: string;
     company: string;
+    skills: Array<string>;
+    link: string;
+    skillsLink: Array<string>;
 }
 
 const project: Project[] = [
@@ -18,35 +24,50 @@ const project: Project[] = [
         year: flight,
         name: "AR Flight Simulation",
         company: "",
-        description: "Although Scott said it didn't matter to him, he knew deep inside that it did. They had been friends as long as he could remember and not once had he had to protest that something Joe apologized for doing didn't really matter. Scott stuck to his lie and insisted again and again that everything was fine as Joe continued to apologize. Scott already knew that despite his words accepting the apologies that their friendship would never be the same.",
+        description: "Made with Figma, the AR Flight Simulation is designed to enhance the flight experience of a passenger glued to their seats.\nThe Simulation features various features, such as seat adjustment, ordering refreshments, bathroom queueing, and even communicating with a virtual immigration assistant.",
+        skills: ["Figma", "PhotoShop", "Illustrator"],
+        link: projects.flight,
+        skillsLink: [skills.figma, skills.photoshop, skills.illustrator],
     },
     {
         index: 1,
         year: univibe,
         name: "Univibe (Social Gathering App)",
         company: "",
-        description: "They argue. While the argument seems to be different the truth is it's always the same. Yes, the topic may be different or the circumstances, but when all said and done, it all came back to the same thing. They both knew it, but neither has the courage or strength to address the underlying issue. So they continue to argue.",
+        description: "Univibe is a social gathering app designed to take the inputs of users within a group and generate a suggestion that matches the preference listed by each member.\nThe app includes various categories, such as restaurants, outdoor activities, and even countries to visit.",
+        skills: ["Figma"],
+        link: projects.univibe,
+        skillsLink: [skills.figma]
     },
     {
         index: 2,
         year: arubaito,
         name: "Arubaito (Personal Streetwear Brand)",
         company: "",
-        description: "The bridge spanning a 100-foot gully stood in front of him as the last obstacle blocking him from reaching his destination. While people may have called it a bridge, the reality was it was nothing more than splintered wooden planks held together by rotting ropes. It was questionable whether it would hold the weight of a child, let alone the weight of a grown man. The problem was there was no other way across the gully, and this played into his calculations of whether or not it was worth the risk of trying to cross it.",
+        description: 'Arubaito was created in 2021 as a casual street-wear brand with the goal of making clothing affordable, comfortable, and expressive.\nThe brand currently features 5 collections that aims to capture a diverse audience in hopes of "having the perfect design for everyone".',
+        skills: ["PhotoShop", "Illustrator", "InDesign"],
+        link: projects.arubaito,
+        skillsLink: [skills.photoshop, skills.illustrator, skills.indesign]
     },
     {
         index: 3,
         year: ge,
         name: "Airfare Elasticity Model (Case Study)",
         company: "",
-        description: "Another option you have is choosing the number of syllables in the words you speak. You probably have never considered this option before, but you have it every time you open your mouth and speak. You make so many choices like this that you never even think about, but you have the choice with each one. What are you going to do with this knowledge?",
+        description: "The purpose of this model is to measure the willingness a consumer would pay extra money for flying greener.\nThe model utilizes comparative variables, such as other airport amenities, to see how sustainable fuel is viewed as a benefit overall.",
+        skills: ["Excel", "R", "Python"],
+        link: projects.ge,
+        skillsLink: [skills.excel, skills.r, skills.python]
     },
     {
         index: 4,
         year: divvy,
         name: "Divvy Member Acquisition (Case Study)",
         company: "",
-        description: "Another option you have is choosing the number of syllables in the words you speak. You probably have never considered this option before, but you have it every time you open your mouth and speak. You make so many choices like this that you never even think about, but you have the choice with each one. What are you going to do with this knowledge?",
+        description: `The case study investigates the difference in behavior between a "casual rider" vs a "member" by analyzing various variables, such as time of day, minutes rode, and distance covered.\nThe case study starts with obtaining and cleaning raw data gathered from Divvy and then developing visual representation that would aide in developing strategies for customer conversion.`,
+        skills: ["Excel", "R", "Github"],
+        link: projects.divvy,
+        skillsLink: [skills.excel, skills.r, skills.github]
     },
 
 ]

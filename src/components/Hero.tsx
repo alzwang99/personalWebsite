@@ -8,23 +8,38 @@ function Hero() {
 
 
     const container = useRef(null);
-    const { scrollYProgress } = useScroll({
+    const { scrollYProgress: scrollYZoom } = useScroll({
         target: container,
         offset: ['start start', 'end end']
     })
 
-    const scale4 = useTransform(scrollYProgress, [0, 1], [1, 15])
+    const { scrollYProgress: scrollYOpacity } = useScroll({
+        target: container,
+        offset: ['0.7 0', '1.4 1.4']
+    })
+
+    const { scrollYProgress: scrollYBackground } = useScroll({
+        target: container,
+        offset: ['0.7 0', '1.4 1.4']
+    })
+
+    const scale5 = useTransform(scrollYZoom, [0, 1], [1, 6.08])
+    const opacity = useTransform(scrollYOpacity, [0, 1], [1, 0])
+    const background = useTransform(scrollYBackground, [0, 1], ["#000000", "#ffffff"])
+
+
+
     return (
-        <div className={styles.container}>
-            <h1 className="pt-40 pb-40">Let's Play Some Cards</h1>
+        <div ref={container} className={styles.container}>
             <div className={styles.scrollWatcher}></div>
-            <div className={styles.sticky}>
-                <div className={styles.ele}>
-                    <motion.div style={{ scale: scale4 }} className={styles.imageContainer}>
+            <motion.div className={styles.sticky} style={{ backgroundColor: background }}>
+                <div className={styles.el}>
+                    <motion.div style={{ scale: scale5, opacity: opacity }}
+                        className={styles.imageContainer}>
                         <img src={card} alt="card" />
                     </motion.div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
