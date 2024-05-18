@@ -1,8 +1,8 @@
-import flight from "../assets/AR Flight Experience.png"
-import univibe from "../assets/Univibe.png"
-import arubaito from "../assets/LogoFinal.png"
-import ge from "../assets/GE Aerospace Sustainability Capstone Poster (1).png"
-import divvy from "../assets/Divvy_Logo1.png"
+import flight from "../../public/assets/AR Flight Experience.png"
+import univibe from "../../public/assets/Univibe.png"
+import arubaito from "../../public/assets/LogoFinal.png"
+import ge from "../../public/assets/GE Aerospace Sustainability Capstone Poster (1).png"
+import divvy from "../../public/assets/Divvy_Logo1.png"
 import linkData, { Links } from './linkData';
 
 const { projects, skills }: Links = linkData;

@@ -13,7 +13,7 @@ function Section({ data, contentType, windowWidth }: DataProps) {
 
     return (
         <div>
-            <h1 className="text-5xl max-w-[33rem] tb:max-w-[40rem] p-10 tb:pr-20 m-auto">{contentType}</h1>
+            <h1 className="text-5xl max-w-[33rem] tb:max-w-[40rem] p-10 pt-5 tb:pr-20 m-auto">{contentType}</h1>
             {data.map((data, index) => (
                 <div key={index}>
                     {(windowWidth >= 980) ?

@@ -1,6 +1,6 @@
 'use client'
 import { useRef } from "react"
-import card from "../assets/alzwangplayingCard.png"
+import card from "../../public/assets/alzwangplayingCard.png"
 import styles from "./Hero.module.css"
 import { useScroll, useTransform, motion } from "framer-motion"
 

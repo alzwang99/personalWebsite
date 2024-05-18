@@ -41,7 +41,7 @@ function Home() {
                     <div className="w-5/8 tb:w-3/8 tb:float-left tb:fixed z-1">
                         <About windowWidth={windowWidth} />
                     </div>
-                    <div className="w-full tb:w-2/4 tb:float-right z-2 tb:pt-12">
+                    <div className="w-full tb:w-2/4 tb:float-right z-2 -pb-10">
                         <div id="Experience">
                             <Section data={experienceData} contentType="Experience" windowWidth={windowWidth} />
                         </div>
@@ -49,7 +49,7 @@ function Home() {
                             <Section data={projectData} contentType="Projects"
                                 windowWidth={windowWidth} />
                         </div>
-                        <div className="max-w-[33rem] tb:max-w-[40rem] p-10 pb-20 m-auto tb:text-start text-center">
+                        <div className="max-w-[33rem] tb:max-w-[40rem] p-10 pb-5 m-auto tb:text-start text-center">
                             <p>Developed with React and Tailwind.css</p>
                             <p>Completed in 20 hours</p>
                         </div>
