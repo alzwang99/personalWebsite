@@ -24,7 +24,7 @@ function SectionComp({ info, contentType, setHovered, hovered, windowWidth }: Se
                     </div>
                     <div
                         className={`desktop:flex ${contentType === "Projects" ? `${styles.sectionProject}` : ""}`}>
-                        <h2>{info.name}</h2>
+                        <h2>{windowWidth < 980 && <br />}{info.name}</h2>
                         <h2 className=" ml-1">{info.company}</h2>
                     </div>
                     {(contentType === "Projects") ? <img src={info.year} alt={info.year} className=" pt-10" /> : ""}

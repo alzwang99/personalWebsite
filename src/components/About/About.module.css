@@ -10,7 +10,7 @@
 }
 
 .pageNav a:hover {
-    color: #2a9df4;
+    color: #434eeb;
 }
 
 
@@ -30,7 +30,7 @@ https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/html-c
         height: 2px; 
         bottom: 0; 
         left: 0; 
-        background-color: #2a9df4; 
+        background-color: #434eeb; 
         transform-origin: bottom left; 
         transition: transform 0.25s ease-out;
 }
@@ -69,6 +69,6 @@ https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/html-c
 }
 
 .iconHover:hover {
-    background-color: #2a9df4;
+    background-color: #434eeb;
     transition-duration: 375ms;
 }

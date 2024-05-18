@@ -37,12 +37,12 @@ function Home() {
                     <Example />
                     <p className="splash-text mt-8">alzwang.com</p>
                 </div> :
-                <div className="pt-12 content-fade">
+                <div className="pt-12 content-fade" id="Experience">
                     <div className="w-5/8 tb:w-3/8 tb:float-left tb:fixed z-1">
                         <About windowWidth={windowWidth} />
                     </div>
                     <div className="w-full tb:w-2/4 tb:float-right z-2 -pb-10">
-                        <div id="Experience">
+                        <div>
                             <Section data={experienceData} contentType="Experience" windowWidth={windowWidth} />
                         </div>
                         <div id="Projects">

@@ -20,7 +20,7 @@
 
 a {
   font-weight: 600;
-  color: #000000;
+  color: #171D1C;
   text-decoration: inherit;
 }
 
@@ -40,7 +40,7 @@ button {
   font-size: 20px;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #FBF5FF;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -61,7 +61,7 @@ button:focus-visible {
   }
 
   a:hover {
-    color: #747bff;
+    color: #5961ff;
   }
 
   button {
