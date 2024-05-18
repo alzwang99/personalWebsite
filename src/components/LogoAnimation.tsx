@@ -1,4 +1,3 @@
-import * as React from "react";
 import { motion } from "framer-motion";
 
 
@@ -32,7 +31,7 @@ export const Example = () => (
     <motion.div>
         <motion.svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 800 800"
+            viewBox="0 0 730 730"
             className="item tb:w-[15vw]"
         >
       // gray trapezoid

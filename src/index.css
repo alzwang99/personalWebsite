@@ -15,6 +15,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -114,6 +115,7 @@ svg {
   opacity: 0;
   animation: fadeIn 1s ease-in forwards;
   animation-delay: 3.5s;
+  font-size: 2rem;
 }
 
 @keyframes fadeOut {

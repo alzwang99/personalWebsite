@@ -6,6 +6,8 @@ import Home from "./pages/Home"
 // import Navbar from './components/Navbar'
 // import Test from "./pages/Test"
 
+// V1: Inspired by https://brittanychiang.com/
+
 export default function App() {
   return (
     <BrowserRouter>

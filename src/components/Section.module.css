@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sectionComp {
+    border-radius: 2rem;
+}
+
+.sectionCompHov:hover {
+    background-color: #e4e4e4;
+    transition-duration: 350ms;
+}
+
+.sectionCompHov:hover h2 {
+    color: #2a9df4
+}
+
+.notHovered {
+    opacity: 0.5;
+    transition-duration: 350ms;
+}
+
+.sectionProject h2{
+    font-size: 1.75rem;
+}
+
+.sectionComp img {
+    border-radius: 2rem;
+}
+
+.sectionComp p {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    opacity: 0.75;
+}
+
+.sectionButtons {
+    padding-top: 1rem;
+}
+
+.sectionButtons button {
+    color: white;
+    background-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0.5rem;
+    font-size: 12px;
+    transition-duration: 350ms;
+    transition-property: color;
+}
+
+.sectionButtons p {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.otherSkills {
+    margin-left: 0.5rem;
+}
+.sectionButtons button:hover {
+    color: #6abeff;
+}

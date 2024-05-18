@@ -24,7 +24,7 @@ const project: Project[] = [
         year: flight,
         name: "AR Flight Simulation",
         company: "",
-        description: "Made with Figma, the AR Flight Simulation is designed to enhance the flight experience of a passenger glued to their seats.\nThe Simulation features various features, such as seat adjustment, ordering refreshments, bathroom queueing, and even communicating with a virtual immigration assistant.",
+        description: "The AR Flight Simulation is designed to enhance the flight experience of a passenger glued to their seats.\nDesigned panels with custom animation and transitions.\nCreated components to efficiently deploy similar cards.",
         skills: ["Figma", "PhotoShop", "Illustrator"],
         link: projects.flight,
         skillsLink: [skills.figma, skills.photoshop, skills.illustrator],
@@ -34,7 +34,7 @@ const project: Project[] = [
         year: univibe,
         name: "Univibe (Social Gathering App)",
         company: "",
-        description: "Univibe is a social gathering app designed to take the inputs of users within a group and generate a suggestion that matches the preference listed by each member.\nThe app includes various categories, such as restaurants, outdoor activities, and even countries to visit.",
+        description: "Univibe is a social gathering app designed to take the inputs of users within a group and generate a suggestion that matches the preference listed by each member.\nDeveloped this prototype with custom animations and transitions in 6 hours.",
         skills: ["Figma"],
         link: projects.univibe,
         skillsLink: [skills.figma]
@@ -54,7 +54,7 @@ const project: Project[] = [
         year: ge,
         name: "Airfare Elasticity Model (Case Study)",
         company: "",
-        description: "The purpose of this model is to measure the willingness a consumer would pay extra money for flying greener.\nThe model utilizes comparative variables, such as other airport amenities, to see how sustainable fuel is viewed as a benefit overall.",
+        description: "The purpose of this model is to measure the willingness a consumer would pay extra money for flying greener.\nConducted and deployed the survey, analyzed raw data, created the data visuals, designed the poster, and presented for important stakeholders.",
         skills: ["Excel", "R", "Python"],
         link: projects.ge,
         skillsLink: [skills.excel, skills.r, skills.python]
@@ -62,7 +62,7 @@ const project: Project[] = [
     {
         index: 4,
         year: divvy,
-        name: "Divvy Member Acquisition (Case Study)",
+        name: "Divvy Member Acquisition\n(A Solo Case Study)",
         company: "",
         description: `The case study investigates the difference in behavior between a "casual rider" vs a "member" by analyzing various variables, such as time of day, minutes rode, and distance covered.\nThe case study starts with obtaining and cleaning raw data gathered from Divvy and then developing visual representation that would aide in developing strategies for customer conversion.`,
         skills: ["Excel", "R", "Github"],

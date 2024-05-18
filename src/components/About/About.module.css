@@ -1,0 +1,74 @@
+.pageNav {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.pageNav a {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+}
+
+.pageNav a:hover {
+    color: #2a9df4;
+}
+
+
+/*Referenced from
+https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/html-css-practical-exercise-15.php
+*/
+
+.pageNavHover {
+    position: relative; 
+}
+
+.pageNavHover::after {
+        content: '';
+        position: absolute; 
+        width: 100%;
+        transform: scaleX(0); 
+        height: 2px; 
+        bottom: 0; 
+        left: 0; 
+        background-color: #2a9df4; 
+        transform-origin: bottom left; 
+        transition: transform 0.25s ease-out;
+}
+.pageNavHover:hover::after {
+    transform: scaleX(120%); 
+    transform-origin: bottom left; 
+}
+
+.socialMedia {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    left: 0;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+}
+
+.socialMediaMobile {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    background-color: #000000;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+
+.iconHover:hover {
+    background-color: #2a9df4;
+    transition-duration: 375ms;
+}
