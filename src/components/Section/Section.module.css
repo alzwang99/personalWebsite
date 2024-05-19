@@ -13,7 +13,7 @@
 }
 
 .sectionCompHov:hover h2 {
-    color: #434eeb
+    color: #434eeb;
 }
 
 .notHovered {
@@ -23,6 +23,9 @@
 
 .sectionProject h2{
     font-size: 1.75rem;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .sectionComp img {

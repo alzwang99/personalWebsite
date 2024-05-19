@@ -32,7 +32,7 @@ function Section({ data, contentType, windowWidth }: DataProps) {
 
     return (
         <div>
-            <h1 className="text-5xl max-w-[33rem] tb:max-w-[40rem] p-10 pt-5 tb:pr-20 m-auto">{contentType}</h1>
+            <h1 className={`text-5xl max-w-[33rem] tb:max-w-[40rem] p-10 pt-5 tb:pr-20 m-auto ${contentType === "Projects" && `pb-0`}`}>{contentType}</h1>
             {data.map((data, index) => (
                 <div key={index}>
                     {(windowWidth >= 980) ?
@@ -42,7 +42,7 @@ function Section({ data, contentType, windowWidth }: DataProps) {
                             className="card-container"
                             initial="offscreen"
                             whileInView="onscreen"
-                            viewport={{ once: true, amount: 0.8 }}
+                            viewport={{ once: true, amount: 0.3 }}
                         >
                             <motion.div variants={cardVariants}>
                                 <SectionComp info={data} contentType={contentType} setHovered={() => console.log(hovered)} hovered={hovered} windowWidth={windowWidth} />
