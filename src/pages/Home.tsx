@@ -1,10 +1,9 @@
-
-import About from "../components/About/About"
-import Section from "../components/Section"
-import experienceData from "../data/experienceData"
+import expData from "../data/experienceData"
 import projectData from "../data/projectData"
-import { Example } from "../components/LogoAnimation"
+import Landing from "../components/Structure/Landing"
 import { useState, useEffect } from "react";
+import Works from "../components/Structure/Works"
+import Biography from "../components/Structure/Biography";
 
 
 
@@ -33,27 +32,10 @@ function Home() {
     return (
         <>
             {loaded === false ?
-                <div className="svg-animation splash-fade">
-                    <Example />
-                    <p className="splash-text mt-8">alzwang.com</p>
-                </div> :
+                <Landing /> :
                 <div className="pt-12 content-fade" id="Experience">
-                    <div className="w-5/8 tb:w-3/8 tb:float-left tb:fixed z-1">
-                        <About windowWidth={windowWidth} />
-                    </div>
-                    <div className="w-full tb:w-2/4 tb:float-right z-2 -pb-10">
-                        <div>
-                            <Section data={experienceData} contentType="Experience" windowWidth={windowWidth} />
-                        </div>
-                        <div id="Projects">
-                            <Section data={projectData} contentType="Projects"
-                                windowWidth={windowWidth} />
-                        </div>
-                        <div className="max-w-[33rem] tb:max-w-[40rem] p-10 pb-5 m-auto tb:text-start text-center">
-                            <p>Developed with React and Tailwind.css</p>
-                            <p>Completed in 20 hours</p>
-                        </div>
-                    </div>
+                    <Biography windowWidth={windowWidth} />
+                    <Works expData={expData} projectData={projectData} windowWidth={windowWidth} />
                 </div>
             }
         </>

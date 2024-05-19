@@ -1,5 +1,5 @@
-import Content from "../components/Content"
-import Hero from "../components/Hero"
+import Content from "../components/v2/Content"
+import Hero from "../components/v2/Hero"
 import styles from "../components/Test.module.css"
 
 function Test() {

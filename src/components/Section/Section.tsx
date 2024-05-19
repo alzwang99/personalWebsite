@@ -1,6 +1,6 @@
 import SectionComp from "./SectionComp"
 import { useState } from "react";
-import { Project } from "../data/projectData"
+import { Project } from "../../data/projectData"
 interface DataProps {
     data: Project[]
     contentType: string
