@@ -1,8 +1,8 @@
-import flight from "../../public/assets/AR Flight Experience.png"
-import univibe from "../../public/assets/Univibe.png"
-import arubaito from "../../public/assets/LogoFinal.png"
-import ge from "../../public/assets/GE Aerospace Sustainability Capstone Poster (1).png"
-import divvy from "../../public/assets/Divvy_Logo1.png"
+import flight from "../assets/AR Flight Experience.png"
+import univibe from "../assets/Univibe.png"
+import arubaito from "../assets/LogoFinal.png"
+import ge from "../assets/GE Aerospace Sustainability Capstone Poster (1).png"
+import divvy from "../assets/Divvy_Logo1.png"
 import linkData, { Links } from './linkData';
 
 const { projects, skills }: Links = linkData;
@@ -32,7 +32,7 @@ const project: Project[] = [
     {
         index: 1,
         year: univibe,
-        name: "Univibe (Social Gathering App)",
+        name: "Univibe\n(Social Gathering App)",
         company: "",
         description: "Univibe is a social gathering app designed to take the inputs of users within a group and generate a suggestion that matches the preference listed by each member.\nDeveloped this prototype with custom animations and transitions in 6 hours.",
         skills: ["Figma"],
@@ -42,7 +42,7 @@ const project: Project[] = [
     {
         index: 2,
         year: arubaito,
-        name: "Arubaito (Personal Streetwear Brand)",
+        name: "Arubaito\n(Personal Streetwear Brand)",
         company: "",
         description: 'Arubaito was created in 2021 as a casual street-wear brand with the goal of making clothing affordable, comfortable, and expressive.\nThe brand currently features 5 collections that aims to capture a diverse audience in hopes of "having the perfect design for everyone".',
         skills: ["PhotoShop", "Illustrator", "InDesign"],
@@ -52,7 +52,7 @@ const project: Project[] = [
     {
         index: 3,
         year: ge,
-        name: "Airfare Elasticity Model (Case Study)",
+        name: "Airfare Elasticity Model\n(MBA Capstone Project)",
         company: "",
         description: "The purpose of this model is to measure the willingness a consumer would pay extra money for flying greener.\nConducted and deployed the survey, analyzed raw data, created the data visuals, designed the poster, and presented for important stakeholders.",
         skills: ["Excel", "R", "Python"],

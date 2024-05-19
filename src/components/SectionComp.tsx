@@ -27,7 +27,11 @@ function SectionComp({ info, contentType, setHovered, hovered, windowWidth }: Se
                         text-[#434eeb] font-bold tb:text-black text-[1.25rem]
                         tb:text-[1rem] tb:font-medium"
                         desktop:flex ${contentType === "Projects" ? `${styles.sectionProject}` : ""}`}>
-                        <h2>{windowWidth < 980 && <br />}{info.name}</h2>
+                        <h2>{windowWidth < 980 && <br />}{info.name.split('\n').map((line, index) => (
+                        <Fragment key={index}>
+                            {line}
+                            <br />
+                        </Fragment>))}</h2>
                         <h2 className=" ml-1 text-[#434eeb] font-bold tb:text-black text-[1.25rem]
                         tb:text-[1rem] tb:font-medium">{info.company}</h2>
                     </div>
