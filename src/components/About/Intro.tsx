@@ -14,7 +14,7 @@ function Intro({ windowWidth, githubLink, linkedInLink, github, linkedIn }: Intr
     return (
         <div>
             <h1 className=" text-5xl">Albert Wang</h1>
-            <h2> Front-end Dev, UX Designer, Business Thinker</h2>
+            <h2> Front-end Dev, UX Designer, Business Strategist</h2>
             {(windowWidth < 980) &&
                 <div className={styles.socialMediaMobile}>
                     {/* https://dev.to/hasantezcan/how-to-colorize-svg-image-1kc8 */}

@@ -35,9 +35,9 @@ const project: Project[] = [
         name: "Univibe\n(Social Gathering App)",
         company: "",
         description: "Univibe is a social gathering app designed to take the inputs of users within a group and generate a suggestion that matches the preference listed by each member.\nDeveloped this prototype with custom animations and transitions in 6 hours. \nPresented at a 24 hr Entrepreneurship Competition in Cincinnati.",
-        skills: ["Figma"],
+        skills: ["Figma", "PhotoShop", "Illustrator"],
         link: projects.univibe,
-        skillsLink: [skills.figma]
+        skillsLink: [skills.figma, skills.photoshop, skills.illustrator]
     },
     {
         index: 2,

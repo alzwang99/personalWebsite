@@ -48,7 +48,7 @@ const work: Work[] = [
         index: 3,
         year: "Feb 2021 — Aug 2021",
         name: "Full Stack Designer ",
-        company: "• Drone Foward Inc",
+        company: "• Drone Forward Inc",
         description: "Spearheaded the enhancement of visual appeal and accessibility of the website.\nConstructed various graphical elements to develop a cohesive brand identity.",
         skills: ["Figma", "React", "PhotoShop", "Illustrator", "InDesign"],
         link: companies.drone,
