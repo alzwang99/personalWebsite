@@ -20,9 +20,9 @@ const work: Work[] = [
         name: "ESG Data Analyst ",
         company: "• KAO",
         description: "Independently designed and created multiple PowerBI dashboards regularly used by ESG scientists.\nAdded data source flexibility, performance, and load time with optimizing Model Architecture & creating custom Power Query functions.\nAuthored comprehensive documentation and user guides to ensure simple troubleshooting and long-term usability of the dashboard.",
-        skills: ["SAP", "R", "Excel", "PowerBI", "SharePoint", "Access"],
-        link: companies.cintas,
-        skillsLink: [skills.sap, skills.r, skills.excel, skills.powerbi, skills.sharepoint, skills.access]
+        skills: ["PowerBI", "DAX", "Excel", "SharePoint"],
+        link: companies.kao,
+        skillsLink: [skills.powerbi, skills.dax, skills.excel, skills.sharepoint]
     },
     {
         index: 1,
