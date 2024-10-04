@@ -14,7 +14,7 @@ const me: Me[] = [
         text: "What I want to achieve is developing a comfortable and holistic experience for consumers when using an unfamiliar product. I want to construct software that connects design, business, and engineering, allowing clear-cut communication and cooperation."
     },
     {
-        text: "In my free time, I try to avoid spending time on my computer, creating things with my hands, such as sewing, crocheting, or building foam-core models, and connecting with the natural world."
+        text: "During my downtime, I love getting hands-on with my creativity, whether it's sewing, crocheting, or building foam-core models, all while staying connected to nature."
     }
 ]
 

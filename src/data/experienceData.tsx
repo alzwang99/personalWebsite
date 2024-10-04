@@ -16,6 +16,16 @@ export interface Work {
 const work: Work[] = [
     {
         index: 0,
+        year: "June 2024 — Oct 2024",
+        name: "ESG Data Analyst ",
+        company: "• KAO",
+        description: "Independently designed and created multiple PowerBI dashboards regularly used by ESG scientists.\nAdded data source flexibility, performance, and load time with optimizing Model Architecture & creating custom Power Query functions.\nAuthored comprehensive documentation and user guides to ensure simple troubleshooting and long-term usability of the dashboard.",
+        skills: ["SAP", "R", "Excel", "PowerBI", "SharePoint", "Access"],
+        link: companies.cintas,
+        skillsLink: [skills.sap, skills.r, skills.excel, skills.powerbi, skills.sharepoint, skills.access]
+    },
+    {
+        index: 1,
         year: "Aug 2023 — Jan 2024",
         name: "Business Process Specialist ",
         company: "• Cintas",
@@ -25,7 +35,7 @@ const work: Work[] = [
         skillsLink: [skills.sap, skills.r, skills.excel, skills.powerbi, skills.sharepoint, skills.access]
     },
     {
-        index: 1,
+        index: 2,
         year: "May 2022 — June 2023",
         name: "SharePoint Admin",
         company: "• University of Cincinnati",
@@ -35,7 +45,7 @@ const work: Work[] = [
         skillsLink: [skills.sharepoint, skills.excel]
     },
     {
-        index: 2,
+        index: 3,
         year: "Jan 2022 — Aug 2022",
         name: "Design Researcher ",
         company: "• Livewell Collab",
@@ -45,7 +55,7 @@ const work: Work[] = [
         skillsLink: [skills.miro, skills.figma, skills.photoshop, skills.illustrator]
     },
     {
-        index: 3,
+        index: 4,
         year: "Feb 2021 — Aug 2021",
         name: "Full Stack Designer ",
         company: "• Drone Forward Inc",

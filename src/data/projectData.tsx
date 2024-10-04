@@ -1,3 +1,4 @@
+import sustainable from "../assets/Sustainable.png"
 import flight from "../assets/AR Flight Experience.png"
 import univibe from "../assets/Univibe.png"
 import arubaito from "../assets/LogoFinal.png"
@@ -21,6 +22,16 @@ export interface Project {
 const project: Project[] = [
     {
         index: 0,
+        year: sustainable,
+        name: "Product Sustainability Dashboard",
+        company: "",
+        description: "The Product Sustainability Dashboard showcases the impact of various dummy products have on the environment.\nDesigned with a 3-layer drillthrough structure to provide an extended analysis of product data across different levels of detail.\nUtilized custom DAX and Power Query functions to enhance the efficiency of the dashboard.\nThe official version is utilized as a tool for KAO's ESG scientists to quickly obtain information about their products.",
+        skills: ["PowerBI", "Excel", "DAX"],
+        link: projects.kao,
+        skillsLink: [skills.powerbi, skills.excel, skills.dax],
+    },
+    {
+        index: 1,
         year: flight,
         name: "AR Flight Simulation",
         company: "",
@@ -30,7 +41,7 @@ const project: Project[] = [
         skillsLink: [skills.figma, skills.photoshop, skills.illustrator],
     },
     {
-        index: 1,
+        index: 2,
         year: univibe,
         name: "Univibe\n(Social Gathering App)",
         company: "",
@@ -40,7 +51,7 @@ const project: Project[] = [
         skillsLink: [skills.figma, skills.photoshop, skills.illustrator]
     },
     {
-        index: 2,
+        index: 3,
         year: ge,
         name: "Airfare Elasticity Model\n(MBA Capstone Project)",
         company: "",
@@ -51,7 +62,7 @@ const project: Project[] = [
 
     },
     {
-        index: 3,
+        index: 4,
         year: divvy,
         name: "Divvy Member Acquisition\n(Google Capstone Project)",
         company: "",
@@ -61,7 +72,7 @@ const project: Project[] = [
         skillsLink: [skills.excel, skills.r, skills.github]
     },
     {
-        index: 4,
+        index: 5,
         year: arubaito,
         name: "Arubaito\n(Personal Streetwear Brand)",
         company: "",
