@@ -27,7 +27,7 @@ const work: Work[] = [
     {
         index: 1,
         year: "Aug 2023 — Jan 2024",
-        name: "Business Process Specialist ",
+        name: "Business Process Analyst ",
         company: "• Cintas",
         description: "Implemented SAP technologies to enhance data extraction and validation processes.\nConducted customer data churn analysis to implement strategies towards customer retention.",
         skills: ["SAP", "R", "Excel", "PowerBI", "SharePoint", "Access"],
