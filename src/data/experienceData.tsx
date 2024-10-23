@@ -16,7 +16,7 @@ export interface Work {
 const work: Work[] = [
     {
         index: 0,
-        year: "June 2024 — Oct 2024",
+        year: "May 2024 — Oct 2024",
         name: "ESG Data Analyst ",
         company: "• KAO",
         description: "Independently designed and created multiple PowerBI dashboards regularly used by ESG scientists.\nAdded data source flexibility, performance, and load time with optimizing Model Architecture & creating custom Power Query functions.\nAuthored comprehensive documentation and user guides to ensure simple troubleshooting and long-term usability of the dashboard.",

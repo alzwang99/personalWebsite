@@ -17,7 +17,7 @@ const linkData: Links = {
         flight: "https://www.figma.com/proto/RyIXJEtW3m4A8qJjKj4J0Y/AR-Airplane-Seat-Experience?node-id=587-3032&starting-point-node-id=587%3A3032&scaling=scale-down&t=jbWzlYsx5k7HVrw1-1",
         univibe: "https://www.figma.com/proto/tOSxWlvGmrvZItHLrBAH6d/Univibe?node-id=6-54&t=LUdulNGs49QRqDAm-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A54&show-proto-sidebar=1",
         arubaito: "https://www.arubaitoinc.com/",
-        ge: "https://drive.google.com/file/d/1nP2ZauQetJUtE1uuiEJGkwpgZeFi1f1k/view?usp=sharing",
+        ge: "https://drive.google.com/drive/folders/1JGdwDVRkdk344PES-ng8XTClibzwVpJf?usp=sharing",
         divvy: "https://github.com/alzwang99/DivvyBikeShare",
         kao: "https://drive.google.com/drive/folders/16MiDDRA4hp9AeqcB-6ev89o5aPkv0Dod?dmr=1&ec=wgc-drive-globalnav-goto"
     },
